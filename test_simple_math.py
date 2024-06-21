@@ -5,7 +5,7 @@ class TestSimpleMath(unittest.TestCase):
     def test_addition(self):
         result = SimpleMath.addition(3, 5)
         self.assertEqual(result, 8, "Addition of 3 and 5 should be 8")
-
+        
         result = SimpleMath.addition(-3, -5)
         self.assertEqual(result, -8, "Addition of -3 and -5 should be -8")
 
@@ -16,4 +16,4 @@ class TestSimpleMath(unittest.TestCase):
         self.assertEqual(result, 0, "Addition of 0 and 0 should be 0")
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main() # test
