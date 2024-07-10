@@ -25,7 +25,7 @@ class TestSimpleMath(unittest.TestCase):
 
         result = SimpleMath.addition(0, 0)
         self.assertEqual(result, 0, "Addition of 0 and 0 should be 0")
-    
+
     def test_substraction(self):
         """
         Test the subtraction function of the SimpleMath class.
