@@ -19,7 +19,7 @@ class SimpleMath:
         return a + b
     
     @staticmethod
-    def soustraction(a, b):
+    def substraction(a, b):
         """
         Return the difference of two numbers.
 
