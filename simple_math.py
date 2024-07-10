@@ -17,7 +17,7 @@ class SimpleMath:
         :return: The sum of the two numbers.
         """
         return a + b
-    
+
     @staticmethod
     def substraction(a, b):
         """
