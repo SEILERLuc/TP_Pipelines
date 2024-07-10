@@ -1,7 +1,7 @@
 # tests/test_simple_math.py
 
 import unittest
-from simplemath import SimpleMath
+from simple_math import SimpleMath
 
 class TestSimpleMath(unittest.TestCase):
     def test_addition(self):
