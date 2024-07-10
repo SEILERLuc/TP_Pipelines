@@ -27,7 +27,7 @@ class TestSimpleMath(unittest.TestCase):
         self.assertEqual(result, 0, "Addition of 0 and 0 should be 0")
 
     
-    def test_subtraction(self):
+    def test_substraction(self):
         """
         Test the subtraction function of the SimpleMath class.
 
@@ -39,16 +39,16 @@ class TestSimpleMath(unittest.TestCase):
         Returns:
             None
         """
-        result = SimpleMath.subtraction(10, 3)
+        result = SimpleMath.substraction(10, 3)
         self.assertEqual(result, 7, "Subtraction of 10 and 3 should be 7")
 
-        result = SimpleMath.subtraction(-5, -2)
+        result = SimpleMath.substraction(-5, -2)
         self.assertEqual(result, -3, "Subtraction of -5 and -2 should be -3")
 
-        result = SimpleMath.subtraction(5, -3)
+        result = SimpleMath.substraction(5, -3)
         self.assertEqual(result, 8, "Subtraction of 5 and -3 should be 8")
 
-        result = SimpleMath.subtraction(0, 0)
+        result = SimpleMath.substraction(0, 0)
         self.assertEqual(result, 0, "Subtraction of 0 and 0 should be 0")
 
 if __name__ == '__main__':
