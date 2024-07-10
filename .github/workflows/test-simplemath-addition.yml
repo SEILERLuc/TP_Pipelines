@@ -17,6 +17,10 @@ jobs:
     - name: Run tests
       run: python -m unittest test_simple_math.TestSimpleMath.test_addition
 
+    - name: Install dependencies
+      run: |
+        pip install pylint
+
     - name: Lint with pylint
       run: |
         pylint simple_math.py test_simple_math.py
