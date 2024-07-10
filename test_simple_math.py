@@ -25,13 +25,14 @@ class TestSimpleMath(unittest.TestCase):
 
         result = SimpleMath.addition(0, 0)
         self.assertEqual(result, 0, "Addition of 0 and 0 should be 0")
-
     
     def test_substraction(self):
         """
         Test the subtraction function of the SimpleMath class.
 
-        This function tests the subtraction function of the SimpleMath class. It verifies that the function correctly subtracts two numbers and returns the expected result.
+        This function tests the subtraction function of the SimpleMath class. 
+        It verifies that the function correctly subtracts two numbers and 
+        returns the expected result.
 
         Parameters:
             self (TestSimpleMath): The current test case.
