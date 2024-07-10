@@ -16,3 +16,9 @@ jobs:
 
     - name: Run tests
       run: python -m unittest test_simple_math.TestSimpleMath.test_addition
+
+    - name: Install unittest
+      run: pip install unittest
+
+    - name: Run tests
+      run: python -m unittest discover
